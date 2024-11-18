@@ -1,0 +1,36 @@
+{
+  "name": "carrito-sequelize",
+  "version": "1.0.0",
+  "description": "Proyecto de trabajo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon src/index.js -e js,ejs,json,mjs"
+  },
+  "keywords": [],
+  "author": "Luis Fernando Garcia Motta",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "consola": "^3.2.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.9.16",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
